@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ca" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Variables</title>
+    <style media="screen">
+      body{
+        font-size: 24px;
+      }
+      .bola{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        border: solid 3px black;
+        margin: 5px;
+        display: inline-block;
+      }
+      .bola2{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        border: solid 3px black;
+        margin: 5px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Titular 0</h1>
+    <h1>Titular 1</h1>
+    <div class="bola"></div>
+    <div class="bola"></div>
+    <div class="bola"></div>
+    <div class="bola"></div>
+    <div class="bola"></div>
+    </br>
+    <div class="bola2"></div>
+    <div class="bola2"></div>
+    <div class="bola2"></div>
+    <div class="bola2"></div>
+    <div class="bola2"></div>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <script type="text/javascript" language="javascript">
+      var color=["tomato","ivory","navy","aquamarine","maroon","salmon","khaki"];
+      document.body.style.backgroundColor=color[3];
+      var punt=document.getElementsByClassName('bola');
+      //punt[0].style.backgroundColor=color[0];
+      //punt[1].style.backgroundColor=color[1];
+      //punt[2].style.backgroundColor=color[2];
+      //punt[3].style.backgroundColor=color[3];
+      //punt[4].style.backgroundColor=color[4];
+
+      //variable matricial que guarda totes les boles?
+
+      for (var k= 0; k< punt.length; k++) {
+        punt[k].style.backgroundColor=color[k];
+      }
+
+
+      //bucle
+      var x=0;
+      while (x<10) {
+        document.write(x+"</br>");
+        x++;
+        //x=x+2;
+        //x--; pero while (x>0)
+      }
+      //el while es igaul al for
+      for (var i = 0; i < 10; i++) {
+        document.write(i+"</br>");
+      }
+      for (var j = 0; j < dia.length; j++) {
+        document.write(dia[j]+"</br>");
+      }
+      //llamar a varios elementos dentro de variables matriciales
+      var titol=document.getElementsByTagName('h1');
+      titol[0].style.color="DarkSlateBlue";
+      var txt=document.getElementsByTagName('p');
+      txt[0].style.color="navy";
+      txt[0].style.fontStyle="italic";
+      //llamar a clases con variables matriciales
+      var bolacolor2=["lavender","MediumSlateBlue","SlateBlue","DarkSlateBlue","indigo"];
+
+      var bolacolor1=document.getElementsByClassName('bola');
+      //bolacolor1[0].style.backgroundColor="lavender";   FORMA 1
+      bolacolor1[1].style.backgroundColor="MediumSlateBlue";
+      bolacolor1[2].style.backgroundColor="SlateBlue";
+      bolacolor1[3].style.backgroundColor="DarkSlateBlue";
+      bolacolor1[4].style.backgroundColor="indigo";
+      //FORMA 2
+      bolacolor1[0].style.backgroundColor=bolacolor2[0];
+
+      //bucle para variables con clases para poner del mismo color
+      for (var k = 0; k < bolacolor1.length; k++) {
+        bolacolor1[k].style.backgroundColor=bolacolor2[0];
+      }
+
+      //llamar a variables con clases de diferente color
+      var bolacolorD=document.getElementsByClassName('bola2');
+      //bolacolor1[0].style.backgroundColor="lavender";   FORMA 1
+      bolacolorD[1].style.backgroundColor="MediumSlateBlue";
+      bolacolorD[2].style.backgroundColor="SlateBlue";
+      bolacolorD[3].style.backgroundColor="DarkSlateBlue";
+      bolacolorD[4].style.backgroundColor="indigo";
+      //FORMA 2
+      bolacolorD[0].style.backgroundColor=bolacolor2[0];
+
+    </script>
+  </body>
+</html>

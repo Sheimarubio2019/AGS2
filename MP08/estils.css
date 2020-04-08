@@ -1,0 +1,59 @@
+body{
+
+  text-align: center;
+  background-color: #F4D03F ;
+
+}
+
+
+ul{
+
+  margin: 0 5%;
+}
+
+
+li {
+  background-color: #FCF3CF;
+  display: block;
+  margin:20px;
+  width: 500px;
+  height: 500px;
+  float:left;
+
+
+}
+
+
+
+
+#{
+  background-image;
+  background-size;
+}
+
+#m00{
+  background-image: url(img/horario.png);
+
+
+}
+#m01{
+  background-image: url(img/Feedly.png);
+}
+#m02{
+  background-image: url(img/Mapa.png);
+
+}
+#m03{
+  background-image: url(img/Floats.png);
+}
+#m04{
+  background-image: url(img/Moviment.png);
+}
+#m05{
+  background-image: url(img/Escacs.png);
+}
+
+#m07{
+  background-image: url(img/Pantalllas.png);
+
+}

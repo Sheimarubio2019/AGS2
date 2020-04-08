@@ -1,0 +1,137 @@
+.petal{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: khaki;
+  border-radius: 0 100px 0 100px;
+  transform-origin: right bottom;
+  border: solid 1px orange;
+  /*
+  animation-name: aniflor;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  */
+  animation: aniflor 8s infinite alternate-reverse;
+}
+.flor{
+  width: 200px;
+  height: 200px;
+  margin: 200px auto;
+  animation: rotacio 8s infinite alternate-reverse;
+  animation-timing-function: ;
+}
+#corazon{
+  position: relative;
+  margin: 50px;
+  animation: batec 2s infinite;
+  width: 100px;
+  height: 100px;
+}
+.lado1{
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  background: firebrick;
+  transform: rotate(-45deg);
+  transform-origin: 50px 100px;
+  border-radius: 50px 50px 0 0;
+}
+.lado2{
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  background: firebrick;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(45deg);
+  transform-origin: 50px 100px;
+}
+#cor{
+  width: 150px;
+  height: 150px;
+  background: darkred;
+  position: absolute;
+  border-radius: 50%;
+  top: 25px;
+  left: 25px;
+  border: solid 1px saddlebrown;
+}
+#p01{
+  transform: rotate(0<deg);
+}
+#p02{
+  transform: rotate(30deg);
+}
+#p03{
+  transform: rotate(60deg);
+}
+#p04{
+  transform: rotate(90deg);
+}
+#p05{
+  transform: rotate(120deg);
+}
+#p06{
+  transform: rotate(150deg);
+}
+#p07{
+  transform: rotate(180deg);
+}
+#p08{
+  transform: rotate(210deg);
+}
+#p09{
+  transform: rotate(240deg);
+}
+#p10{
+  transform: rotate(270deg);
+}
+#p11{
+  transform: rotate(300deg);
+}
+#p12{
+  transform: rotate(330deg);
+}
+@keyframes aniflor {
+  0%{
+    background: khaki;
+  }
+  100%{
+    background: coral;
+  }
+}
+@keyframes rotacio {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.esquerra{
+  margin: 200px auto 200px 0;
+}
+.dreta{
+  margin: 200px 0 200px auto;
+}
+.centre{
+  margin: 200px auto;
+}
+@keyframes batec {
+  0%{
+    transform: scale(0.75);
+  }
+  25%{
+    transform: rotate(1);
+  }
+  50%{
+    transform: scale(0.75);
+  }
+  75%{
+    transform: rotate(1);
+  }
+  100%{
+    transform: rotate(0.75);
+  }
+}

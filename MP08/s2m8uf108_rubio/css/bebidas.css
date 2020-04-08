@@ -1,0 +1,152 @@
+body{
+    background-color: white;
+    font-family: 'Kanit', Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+  }
+
+.cap {
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color:white;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+.cos{
+  position: fixed;
+  top:80px;
+  left:0;
+  right:0;
+  bottom: 80px;
+  background-color: white;
+  overflow-y: auto;
+}
+
+.peu{
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  height:80px;
+  background-color:#F7D358;
+  text-align: center;
+}
+.boto{
+  position: fixed;
+  bottom:140px;
+  right:40px;
+  height:60px;
+  width:60px;
+  border-radius: 30px;
+  background-color: green;
+
+}
+
+.boton{
+  width: 50px;
+  height: 50px;
+  background: ;
+
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+  #b1{
+      background-image:url(../img/casa.svg);
+  }
+
+  #b2{
+      background-image:url(../img/camareros.svg);
+  }
+
+  #b3{
+      background-image:url(../img/buscador.svg);
+
+  }
+
+  #b4{
+      background-image:url(../img/ajustes.svg);
+
+  }
+  .contenedorsecciones{
+    background-color:;
+    width: 300px;
+
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 7%;
+
+  }
+
+  .secciones{
+    background-color: #F7DC6F;
+    width: 270px;
+    height: 60px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+  }
+  #s1{
+    text-align: left;
+
+  }
+  #s2{
+    text-align: left;
+  }
+  #s3{
+    text-align: left;
+  }
+  #s4{
+    text-align: left;
+  }
+  #s5{
+    text-align: left;
+  }
+  #s6{
+    text-align: left;
+  }
+  #s7{
+    text-align: left;
+  }
+
+  .esquerre{
+    float:left;
+    margin: 0px;
+    line-height:60px;
+    margin-left: 15px;
+    background-color:;
+    display: block;
+  }
+
+  .dret{
+    float:right;
+    line-height:60px;
+    background-color: ;
+    display: block;
+    margin:0;
+    margin-right: 15px;
+
+  }
+  #flecha{
+    background-color: ;
+    height: 30px;
+    width: 30px;
+    float: right;
+  }
+  a{
+    text-decoration: none;
+  }

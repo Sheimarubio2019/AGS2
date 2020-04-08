@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    *{
+      position: relative;
+      font-family: Helvetica, Sans-Serif;
+      <imput type="range>-align: center;
+    }
+    ul{
+      width:960px;
+      margin:auto;
+    }
+    li{
+      height: 420px;
+      width:180px;
+      margin: 4px;
+
+      display: block;
+      float: left;
+      padding: 2px;
+      background: linear-gradient(45deg,rgba(0, 0, 0, 0.2) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0,0.2) 75%,rgba(0, 0, 0,0.2)),
+                  linear-gradient(45deg,rgba(0, 0, 0, 0.2) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.2) 75%,rgba(0, 0, 0,0.2));
+
+            background-size: 4px 4px;
+            background-position: 0 0, 2px 2px;
+
+    }
+    /*repeating-linear-gradient(90deg, #ddd 0px,#ddd 4px, transparent 4px, transparent 8px),
+               repeating-linear-gradient(0deg, #ddd 0px,#ddd 4px, transparent 4px, transparent 8px);*/
+h1{
+  box-sizing: border-box;
+  border: 5px solid turquoise;
+  width: 100px;
+  height:100px;
+  background:linear-gradient(135deg,navy,black);
+  margin: 20px auto;
+  box-shadow: 1px 1px 1px grey;
+  color: turquoise;
+  font-size:72px;
+  line-height: 100px;
+}
+.desenfocar img{
+  -webkit-filter: blur(10px);
+
+}
+.gris img{
+  -webkit-filter:grayscale(100%);
+}
+.ombra img{
+  -webkit-filter:drop-shadow(6px 6px 6px orange);
+}
+.sepia img{
+  -webkit-filter:sepia(100%);
+}
+.lluminositat img{
+  -webkit-filter:brightness(200%);
+}
+.contrast img{
+  -webkit-filter:contrast(200%);
+}
+.top img{
+  -webkit-filter:hue-rotate(270deg);
+}
+.invertir img{
+  -webkit-filter:invert(100%);
+}
+.saturar img{
+  -webkit-filter:saturate(300%);
+}
+.opacitat img{
+  -webkit-filter:opacity(50%);
+}
+
+
+  </style>
+</head>
+<body>
+  <h1>Ps</h1>
+  <ul>
+    <li class="efectes desenfocar">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>Desenfocar</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+    <li class="efectes gris">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>grisos</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+    <li class="efectes ombra">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>ombra paralela</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+    <li class="efectes sepia">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>sepia</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+    <li class="efectes lluminositat">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>lluminositat</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+    <li class="efectes contrast">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>contrast</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+    <li class="efectes top">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>top</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+    <li class="efectes invertir">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>invertir</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+    <li class="efectes saturar">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>saturar</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+    <li class="efectes opacitat">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>opacitat</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+  </ul>
+</body>
+</html>
