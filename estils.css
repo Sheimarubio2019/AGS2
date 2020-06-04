@@ -1,0 +1,63 @@
+body{
+
+  text-align: center;
+  background-color: #BA023A ;
+
+}
+
+
+ul{
+
+  margin: 0 5%;
+}
+
+
+li {
+  background-color: #FCF3CF;
+  display: block;
+  margin:20px;
+  width: 500px;
+  height: 500px;
+  float:left;
+
+
+}
+
+
+
+
+#{
+  background-image;
+  background-size;
+}
+
+#m00{
+  background-image: url(indice/a01.png);
+
+
+}
+#m01{
+  background-image: url(indice/a02.png);
+}
+#m02{
+  background-image: url(indice/a03.png);
+
+}
+#m03{
+  background-image: url(indice/a04.png);
+}
+#m04{
+  background-image: url(indice/a05.png);
+}
+#m05{
+  background-image: url(indice/a06.png);
+}
+
+#m07{
+  background-image: url(indice/a07.png);
+
+}
+#m08{
+  background-image: url(indice/a08.png);
+
+}
