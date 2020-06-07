@@ -1,0 +1,171 @@
+#body {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+#titol{
+  height: 80px;
+  width: : 50px;
+  background-color: #222;
+
+  color: white;
+  font-size: 40px;
+  text-align: left;
+
+
+
+}
+
+#vctor {
+  height: 80px;
+  width: : 50px;
+  background-color: ;
+  font-size: 20px;
+  position: absolute;
+  top: 50px;
+  right: 500px;
+  margin: 8px;
+}
+
+#katu {
+  height: 80px;
+  width: : 50px;
+  background-color: ;
+  font-size: 20px;
+  position: absolute;
+  top: 50px;
+  right: 400px;
+  margin: 8px;
+}
+
+#diem {
+  height: 80px;
+  width: : 50px;
+  background-color: ;
+  font-size: 20px;
+  position: absolute;
+  top: 50px;
+  right: 300px;
+  margin: 8px;
+}
+
+#carpe {
+  height: 80px;
+  width: : 50px;
+  background-color: ;
+  font-size: 20px;
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  margin: 8px;
+}
+
+
+h3 {
+  height: 20px;
+  width: 100px;
+  font-size: 22px;
+}
+
+
+.bola {
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  border-radius: 150px;
+  float: right;
+  margin: 10px;
+
+
+}
+
+.bola01 {
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  border-radius: 150px;
+  float: right;
+  margin: 10px;
+}
+
+.bola02 {
+  height: 40px;
+  width: 40px;
+  background-color:yellow;
+  border-radius: 150px;
+  float: right;
+  margin: 10px;
+}
+.bola03 {
+  height: 40px;
+  width: 40px;
+  background-color: green;
+  border-radius: 150px;
+  float: right;
+  margin: 10px;
+}
+.bola04 {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 150px;
+  float: right;
+  margin: 10px;
+}
+
+.bola05 {
+  height: 40px;
+  width: 40px;
+  background-color: pink;
+  border-radius: 150px;
+  float: right;
+  margin: 10px;
+}
+
+.bola06 {
+  height: 40px;
+  width: 40px;
+  background-color: orange;
+  border-radius: 150px;
+  float: right;
+  margin: 10px;
+}
+
+.bola07 {
+  height: 40px;
+  width: 40px;
+  background-color: gray;
+  border-radius: 150px;
+  float: right;
+  margin: 10px;
+}
+
+.bola08 {
+  height: 40px;
+  width: 40px;
+  background-color: purple;
+  border-radius: 150px;
+  float: right;
+  margin: 10px;
+}
+
+.img {
+  height: 500px;
+  width: : 500px;
+  background-color: red;
+  margin: 100px;
+
+}
+
+#imgg {
+  margin-left: 400px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 500px;
+  width: 500px;
+
+}

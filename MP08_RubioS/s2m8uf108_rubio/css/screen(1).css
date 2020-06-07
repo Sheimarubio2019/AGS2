@@ -1,0 +1,69 @@
+body{
+  background-color:#F7DA96;
+  font-family: 'Kanit', Arial,Helvetica,sans-serif;
+  font-size: 1em;
+}
+
+.contingut{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  height:100%;
+  background-color: ;
+  background-image:
+
+}
+
+h1{
+  margin:21%;
+  text-align: center;
+  font-size:4em;
+  line-height: 6em;
+  font-weight: 700;
+}
+.cap{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:80px;
+  background-color:yellow;
+
+
+}
+
+.cos{
+  position: fixed;
+  top:80px;
+  left:0;
+  right:0;
+  bottom: 80px;
+  background-color: white;
+  overflow-y: auto;
+
+
+}
+
+.peu{
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  height:80px;
+  background-color: yellow;
+
+
+}
+
+.boto{
+  position: fixed;
+  bottom:140px;
+  right:40px;
+  height:60px;
+  width:60px;
+  border-radius: 30px;
+  background-color: green;
+
+}

@@ -1,0 +1,46 @@
+#fondo{
+  background-color: green;
+  width: 800px;
+  height: 800px;
+  margin:auto;
+  padding: 20px;
+
+
+
+}
+
+.negro{
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  display: block;
+  float: left;
+  background-image: linear-gradient(ivory, white);
+}
+
+.blanco{
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  float: left;
+  display: block;
+  background-image: linear-gradient(black, grey);
+}
+
+p{
+  background-color: black;
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin: auto;
+  border-radius: 100px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+
+}
+
+div:nth-child(n+49) p {
+  background-color: white;
+  box-shadow: 4px 4px 4px black inset ;
+}
